@@ -1,10 +1,10 @@
-me,k=(input()).split()
-me=int(me)
-k=int(k)
-lst=input().split()
+m,p=(input()).split()
+m=int(m)
+p=int(p)
+i=input().split()
 s=0
 c=0
-while(c<k):
-    s=s+int(lst[c])
+while(c<p):
+    s=s+int(i[c])
     c+=1
 print(s)
